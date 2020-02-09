@@ -1,0 +1,274 @@
+<resources>
+    <string name="app_name">My Makeover</string>
+    <string name="spinner_title">Choose a city</string>
+
+    <string name="date_picker">datePicker</string>
+    <string name="time_picker">timePicker</string>
+
+    <string-array name="cities">
+        <item>New York</item>
+        <item>Miami</item>
+        <item>Chicago</item>
+    </string-array>
+    <string name="start">GET STARTED</string>
+
+    <string-array name="chicago_locations">
+        <item>1901 W Chicago Ave, Chicago, IL 60622, United States</item>
+        <item>207 E Ohio St #123, Chicago, IL 60611, United States</item>
+        <item>808 S Michigan Ave, Chicago, IL 60605, United States</item>
+        <item>948 W Madison St, Chicago, IL 60607, United States</item>
+    </string-array>
+
+    <string-array name="miami_locations">
+        <item>340 W Flagler St, Miami, FL 33130, United States</item>
+        <item>2915 Emathla St, Miami, FL 33133, United States</item>
+    </string-array>
+
+    <string-array name="newyork_locations">
+        <item>Van Siclen Ave, Brooklyn, NY 11207, United States</item>
+        <item>The Pierre Hotel, At The Dominique Salon, 2 East 61st Street, New York, NY 10065, United States</item>
+        <item>2777 University Ave, The Bronx, NY 10468, United States</item>
+        <item>754 5th Ave, New York, NY, United States</item>
+    </string-array>
+
+    <string-array name="chicago_names">
+        <item>Glam Lab Makeup Studios</item>
+        <item>Fine Makeup Art and Associates</item>
+        <item>Modern Makeup</item>
+        <item>City Light Makeup Artistry</item>
+    </string-array>
+
+    <string-array name="miami_names">
+        <item>MUBA by Andres Felipe</item>
+        <item>Alexis Renny Makeup Artist</item>
+    </string-array>
+
+    <string-array name="newyork_names">
+        <item>Faces By Madge</item>
+        <item>Shara Makeup Studio</item>
+        <item>Junior Makeup Studio</item>
+        <item>Michelle Stern Beauty</item>
+    </string-array>
+
+    <string-array name="chicago_latitudes">
+        <item>41.895960</item>
+        <item>41.892499</item>
+        <item>41.871707</item>
+        <item>41.882206</item>
+    </string-array>
+
+    <string-array name="chicago_longitudes">
+        <item>-87.674854</item>
+        <item>-87.621957</item>
+        <item>-87.624627</item>
+        <item>-87.651830</item>
+    </string-array>
+
+    <string-array name="newyork_latitudes">
+        <item>40.662445</item>
+        <item>40.765437</item>
+        <item>40.871116</item>
+        <item>40.763803</item>
+    </string-array>
+
+    <string-array name="newyork_longitudes">
+        <item>-73.892129</item>
+        <item>-73.972072</item>
+        <item>-73.899736</item>
+        <item>-73.974004</item>
+    </string-array>
+
+    <string-array name="miami_latitudes">
+        <item>25.773874</item>
+        <item>25.741100</item>
+    </string-array>
+
+    <string-array name="miami_longitudes">
+        <item>-80.200056</item>
+        <item>-80.227970</item>
+    </string-array>
+
+    <string-array name="chicago_descriptions">
+        <item>The magic of High Resolution Pro Makeup = NO FALLOUTS and FINISHES FLAWLESSLY. Mesmerizing eyes were created using @GLAMLAB_cosmetics Magical™ Multi-Dimensional palette.</item>
+        <item>Soft makeup for the 50th Anniversary of Korean Consulate in Chicago!</item>
+        <item>Glamorous look! Book with her for your wedding or event!</item>
+        <item>Bridal makeup! Using all @maccosmetics products</item>
+    </string-array>
+
+    <string-array name="newyork_descriptions">
+        <item>Smokey eyes are so alluring! Model: Essence Walker</item>
+        <item>Loved having Joy @joycattan for a series of three lessons this week. Tonight, at our final lesson- we covered this pretty winter wedding look. She looks like a model!</item>
+        <item>This bold red lip gives me life!! My pleasure always @georginnaxx</item>
+        <item>Cannot get enough of @fyzakadir30 representing Malaysia for the @toryburch show #NYFW</item>
+    </string-array>
+
+    <string-array name="miami_descriptions">
+        <item>Eyes: @mehronmakeup, lips : @nouba_it</item>
+        <item>A signature Miami look!</item>
+    </string-array>
+
+    <string-array name="chicago_instagramProfiles">
+        <item>https://www.instagram.com/glamlabmakeupstudios/</item>
+        <item>https://www.instagram.com/finemakeupart/</item>
+        <item>https://www.instagram.com/modernmakeupllc/</item>
+        <item>https://www.instagram.com/citylightsmakeup/</item>
+    </string-array>
+
+    <string-array name="chicago_instagramNames">
+        <item>\@glamlabmakeupstudios:</item>
+        <item>\@finemakeupart:</item>
+        <item>\@modernmakeupllc:</item>
+        <item>\@citylightsmakeup:</item>
+    </string-array>
+
+    <string-array name="newyork_instagramProfiles">
+        <item>https://www.instagram.com/facesbymadge/</item>
+        <item>https://www.instagram.com/sharamakeupstudio/</item>
+        <item>https://www.instagram.com/junior_makeup/</item>
+        <item>https://www.instagram.com/michellesternbeauty/</item>
+    </string-array>
+
+    <string-array name="newyork_instagramNames">
+        <item>\@facesbymadge:</item>
+        <item>\@sharamakeupstudio:</item>
+        <item>\@junior_makeup:</item>
+        <item>\@michellesternbeauty:</item>
+    </string-array>
+
+    <string-array name="miami_instagramProfiles">
+        <item>https://www.instagram.com/andresfelipeofficial/</item>
+        <item>https://www.instagram.com/lexieemakeup/</item>
+    </string-array>
+
+    <string-array name="miami_instagramNames">
+        <item>\@andresfelipeofficial:</item>
+        <item>\@lexieemakeup:</item>
+    </string-array>
+
+    <string-array name="miami_reviews">
+        <item>
+            \"Best service, professionalism and talent that you can only dream of. I get my makeup done for modeling and Halloween and every time I leave with the biggest smile and I always receive the best complements!\"
+            \n\n
+            \"I took my wife for a last minute makeup session with Andres because her makeup artist wasn\'t available that day. She is now in love with the services that Andres provides and of course his professionalism.\"
+        </item>
+        <item>
+            \"I can\'t say enough good things about Alexis. After trying many many makeup artists in Miami, my experience with her was superior. She was so sweet and welcoming and gave me the best makeup experience I have ever had. She is very professional and really took her time to make sure I looked perfect. I was SO HAPPY with the finished look. I received so many compliments and felt so beautiful! Her space is gorgeous and you are truly in the hands of a professional. My experience was exquisite. I am so happy to have found my go-to makeup artist.\"
+            \n\n
+            \"My daughter and myself went to get our makeup done for a party. My daughter wanted something funky and she did such a wonderful job. Alexis was very personable and you felt like you were sitting there with an old friend. We both were very happy with the results and we got many compliments. Oh and she has an adorable super friendly bunny who is just as fantastic.\"
+        </item>
+    </string-array>
+
+    <string-array name="newyork_reviews">
+        <item>
+            \"Amazing experience. She has fulfilled my expectations and beyond. Service was great and my makeup was on point. I would not hesitate to recommend her to anyone who needs her service. I got a lot of compliments each time I use her service.\"
+            \n\n
+            \"I\'m not one to wear makeup whether it is a lot or a little, so when I need to glow up I visit Madge. Her willingness to make her clients look fabulous is unmatched. She doesn\'t overdo the makeup, which would make me uncomfortable but it\’s always just the right touch for the occasion.\"
+            \n\n
+            \"Madge is extremely pleasant and welcoming. I love her work and the confidence she gives to me. I highly recommend her services.\"
+        </item>
+        <item>
+            \"Not having worn makeup for many years I made an appointment with Shara for an update on how to apply makeup for a natural (not made up) look. Shara was great. We worked together to get the right colors, she gave me easy application tips, and I love, love, love her own reasonably priced product line. I left her studio looking great. Shara is the best.\"
+        \n\n
+            \"Shara is simply the best. She has an incomparable professionalism and really makes you shine for whatever event you are going to. She has worked with me for photo shoots, film premieres, and more. Additionally, she is a wonderful resource for tips on better skin. I had been experiencing mild acne and even the dermatologist didn\'t seem to have a reason for why it was happening. Shara not only diagnosed what product I was using to cause the acne, but offered solutions that have really changed the quality of my skin to be 100% clear and healthy looking. If you have a big day approaching, I give her the highest recommendation! You will be so so happy with her work.\"
+        </item>
+        <item>
+            \"Junior Guzman is simply the best! He can literally recreate any look that you have in mind. Especially if it\’s colorful and fierce, like the many looks he has done for me. I can\’t recommend him enough!\"
+            \n\n
+            \"Totally in love with his art. You have to check him out if you haven\’t!\"
+        </item>
+        <item>
+            \"Michelle did my and my mother\’s makeup for my wedding and let me just say - she is THE BEST. Not only is she incredibly talented, and made me look beautiful without being over the top, but she\'s awesome! So friendly and easy to talk to and definitely makes you feel like you have a friend with you. I couldn\'t recommend her more.\"
+            \n\n
+            \"Michelle has been doing my makeup for years! She has always been reliable and prompt and professional. Michelle knows how to deliver what her clients want - clean fresh face or dramatic! I have used Michelle as my makeup artist for weddings, editorial photo shoots and simply an evening out. She is one of the best artists out there that I trust with my face and my skin and my eyes. She also has an incredible team of makeup artists and hair stylists she works with, so she\’s an awesome source for your friends and family needing services.\"
+        \n\n
+            \"Michelle Stern is a true professional. She\'s organized, focused on the task at hand, amazingly timely and does a top notch job with her make-up application. Michelle can read her clients well, to know if they\'re comfortable with her approach and knows when things need altering and how to do it. If you want stress-free flawless make-up, Michelle is the lady you\'re looking for.\"
+        </item>
+    </string-array>
+
+    <string-array name="chicago_reviews">
+        <item>
+\"Jill is amazing. She made me look and feel beautiful. She has an amazing eye for makeup and really brings out your natural beauty. She takes the time to learn what kind of look you want and then does a better job than you ever imagined. I was particularly nervous about getting my makeup done (I hate sharing products with others, especially on my face) and Jill really put me at ease. She keeps her makeup sparkling clean and walked me through the sanitizing process. She was such a pleasure to work with!\"
+        </item>
+        <item>
+            \"Traci did an amazing job on my bridal makeup and my wedding party makeup! She listened to what we wanted and delivered a beautiful outcome. She was very organized and communicated so well throughout the process. I will be recommending Traci to all of my family and friends and plan to use her services again for future events!\"
+        \n\n
+            \"\I\'ve been going to Lela now for 6 months to get my eye lash extensions. She does a fantastic job. I get compliments all the time because they look so natural.\"
+        \n\n
+            \"I am beyond happy for finding Traci for a makeup artist. She did my makeup for our engagement photo session and wedding. Traci always does a marvelous job. I would definitely recommend her.\"
+        </item>
+        <item>
+            \"So far so good!! Eddie is fabulous to talk to and their pricing seems very fair!! If we end up bringing them on for the wedding I will update my review after each step! But at this point I would say they are definitely worth giving a call!\"
+        </item>
+        <item>
+            \"Paula was amazing, she did my hair and makeup for a gala. My makeup and hair was perfect. Everyone raved about the fantastic job she did. She was extremely kind and a joy to have in our home. I highly recommend her work, and will definitely hire her again in the future.\"
+            \n\n
+            \"Reviews and recommendations are so important, especially when you are visiting a new city and have no idea where to start. I\’m so glad that Paula was recommended to me by a friend. Her reviews and examples of her work were great so I booked with her. I am so glad I did! She was very professional, kept in contact with me, was funny and above all did fantastic work. She made me feel like a celebrity and I received so many compliments all evening long. She transformed me into a 1920\’s star for my husband\’s company party and I couldn\’t be more pleased with her work. I will definitely book with her again for future functions. Thank you so much Paula!\"
+        </item>
+    </string-array>
+
+    <string-array name="chicago_image1">
+        <item>@drawable/glamlab1</item>
+        <item>@drawable/fine1</item>
+        <item>@drawable/modern1</item>
+        <item>@drawable/city1</item>
+    </string-array>
+
+    <string-array name="chicago_image2">
+        <item>@drawable/glamlab2</item>
+        <item>@drawable/fine2</item>
+        <item>@drawable/modern2</item>
+        <item>@drawable/city2</item>
+    </string-array>
+
+    <string-array name="newyork_image1">
+        <item>@drawable/madge1</item>
+        <item>@drawable/shara1</item>
+        <item>@drawable/junior1</item>
+        <item>@drawable/michelle1</item>
+    </string-array>
+
+    <string-array name="newyork_image2">
+        <item>@drawable/madge2</item>
+        <item>@drawable/shara2</item>
+        <item>@drawable/junior2</item>
+        <item>@drawable/michelle2</item>
+    </string-array>
+
+    <string-array name="miami_image1">
+        <item>@drawable/muba1</item>
+        <item>@drawable/alexis1</item>
+    </string-array>
+
+    <string-array name="miami_image2">
+        <item>@drawable/muba2</item>
+        <item>@drawable/alexis2</item>
+    </string-array>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_label1">Reviews &amp; Instagram</string>
+    <string name="tab_label2">Make an appointment</string>
+    <string name="tab_label3">Location</string>
+    <string name="choose_datetime">Choose the date and time:</string>
+    <string name="date_button">Date</string>
+    <string name="time_button">Time</string>
+    <string name="yourchoice">You have chosen:</string>
+    <string name="confirm">Confirm</string>
+    <string name="more">For more content, add us on Instagram:</string>
+    <string name="text1">Working hours: 09:00 - 20:00\nChoose the date and time:</string>
+    <string name="add">2915 Emathla St, Miami, FL 33133, United States</string>
+    <string name="workinghrs">Working hours: 09:00 - 20:00</string>
+    <string name="makeupstudios">Makeup Studios</string>
+    <string name="click">click</string>
+    <string name="action_music">Music</string>
+    <string name="action_home">Home</string>
+    <string name="msny">Makeup studios in New York</string>
+    <string name="msm">Makeup studios in Miami</string>
+    <string name="msc">Makeup studios in Chicago</string>
+    <string name="example">Junior Makeup Studio</string>
+    <string name="profileexample">profile:</string>
+    <string name="cap">Caption</string>
+</resources>

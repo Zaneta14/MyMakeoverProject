@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/card_margin"
+        android:src="@drawable/logo"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/logo"
+        android:layout_marginBottom="@dimen/mt"
+        android:prompt="@string/spinner_title"
+        android:entries="@array/cities">
+    </Spinner>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance"
+        android:text="@string/start"
+        android:layout_centerInParent="true"
+        android:onClick="buttonclick"
+        android:background="@color/white1"
+        android:padding="@dimen/padd"
+        android:layout_below="@+id/spinner"/>
+
+</RelativeLayout>

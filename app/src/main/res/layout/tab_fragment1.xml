@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DetailsActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/studioReviews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="italic"
+        android:layout_marginLeft="@dimen/marginl"
+        android:layout_marginRight="@dimen/marginl"
+        android:textSize="@dimen/text_size"
+        android:layout_marginTop="@dimen/marginl"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card"
+        android:layout_below="@+id/studioReviews"
+        android:layout_margin="@dimen/card_margin"
+        android:background="?android:selectableItemBackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/picture2"
+                android:layout_width="match_parent"
+                android:src="@drawable/junior2"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:id="@+id/profile"
+                android:textSize="@dimen/txt4"
+                android:textStyle="bold"
+                android:textColor="@color/color_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/card_margin"
+                android:text="@string/profileexample"
+                android:layout_below="@+id/picture2"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+            <TextView
+                android:id="@+id/caption"
+                android:textSize="@dimen/txt4"
+                android:layout_toEndOf="@+id/profile"
+                android:textColor="@color/color_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/card_margin"
+                android:text="@string/cap"
+                android:layout_below="@+id/picture2"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card">
+    <TextView
+        android:id="@+id/formore"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        android:textColor="@color/color_grey"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="@dimen/card_margin"
+        android:text="@string/more"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+    <ImageView
+        android:id="@+id/instaicon"
+        android:layout_width="@dimen/layout"
+        android:layout_height="@dimen/layout"
+        android:layout_toEndOf="@+id/formore"
+        android:onClick="openInstagram"
+        android:src="@drawable/instagramicon" />
+    </RelativeLayout>
+</RelativeLayout>
+</ScrollView>
